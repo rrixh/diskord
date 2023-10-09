@@ -1,4 +1,4 @@
-local msg = "🚨ALERT🚨: " .. game.Players.LocalPlayer.Name .. " jus exekuted Lollypop Hub🍭"
+local msg = "🚨ALERT: " .. game.Players.LocalPlayer.Name .. " exekuted Français Hub🍭"
 local url = "https://discord.com/api/webhooks/1161007016052002886/2JoWF3i8ZalEHxCfMA7bSmckCuctTmy7os-87P2FBrZQpRsF9UFNxEKooU2kwbFCTdCp"
 
 syn.request({Url = url, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game:GetService("HttpService"):JSONEncode({["content"]=msg})})

@@ -11,7 +11,6 @@ local webhookcheck =
    unit and not syn and "Unit" or
    OXYGEN_LOADED and "Oxygen U" or
    IsElectron and "Electron" or
-   DELTA_LOADED and "Delta X" or
      "Unknown Exploit"
 
 local url =

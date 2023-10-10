@@ -8,7 +8,7 @@ local webhookcheck =
 local url =
    "https://discord.com/api/webhooks/1161007016052002886/2JoWF3i8ZalEHxCfMA7bSmckCuctTmy7os-87P2FBrZQpRsF9UFNxEKooU2kwbFCTdCp"
 local data = {
-   ["content"] = "someone exekuted your skript🍭",
+   ["content"] = "**Lollypop Hub 🍭**",
    ["embeds"] = {
        {
            ["title"] = "**Someone Exekuted Lollypop Hub🍭**",

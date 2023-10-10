@@ -1,5 +1,5 @@
 local webhookcheck =
-   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Delta X" or
    secure_load and "Sentinel" or
    KRNL_LOADED and "Krnl" or
    SONA_LOADED and "Sona" or
@@ -11,7 +11,7 @@ local data = {
    ["content"] = " 🍭",
    ["embeds"] = {
        {
-           ["title"] = "**Someone Exekuted Lollypop Hub🍭!**",
+           ["title"] = "**Someone Exekuted Lollypop Hub🍭**",
            ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),

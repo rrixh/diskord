@@ -7,7 +7,7 @@ local webhookcheck =
    isvm and "Proxo" or
    shadow_env and "Shadow" or
    jit and "EasyExploits" or
-   getscriptenvs and "Calamari" or
+   getscriptenvs and "Fluxus" or
    unit and not syn and "Unit" or
    OXYGEN_LOADED and "Oxygen U" or
    IsElectron and "Electron" or

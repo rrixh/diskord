@@ -15,6 +15,10 @@ elseif premium and player.AccountAge >= 70 then
    alt = false
 end
 
+
+
+local url =
+   "https://discord.com/api/webhooks/1161007016052002886/2JoWF3i8ZalEHxCfMA7bSmckCuctTmy7os-87P2FBrZQpRsF9UFNxEKooU2kwbFCTdCp"
 local Thing = game:HttpGet(string.format("https://thumbnails.roblox.com/v1/users/avatar?userIds=%d&size=180x180&format=Png&isCircular=true", game.Players.LocalPlayer.UserId))
 Thing = game:GetService("HttpService"):JSONDecode(Thing).data[1]
 local AvatarImage = Thing.imageUrl
@@ -56,7 +60,7 @@ local msg = {
                    ["inline"] = true
                 },
                 {
-                   ["name"] = "Executor Used",
+                   ["name"] = "Exekutor Used",
                    ["value"] = executor,
                    ["inline"] = true
                 },
@@ -80,29 +84,3 @@ local msg = {
        }
    }
 }
-
-local url =
-   "https://discord.com/api/webhooks/1161007016052002886/2JoWF3i8ZalEHxCfMA7bSmckCuctTmy7os-87P2FBrZQpRsF9UFNxEKooU2kwbFCTdCp"
-local data = {
-   ["content"] = "**Lollypop Hub 🍭**",
-   ["embeds"] = {
-       {
-           ["title"] = "**Someone Exekuted Lollypop Hub🍭**",
-           ["description"] = "Username: " .. game.Players.LocalPlayer.Name.." with **"..webhookcheck.."**",
-           ["type"] = "rich",
-           ["color"] = tonumber(0x7269da),
-           ["image"] = {
-               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
-                   tostring(game:GetService("Players").LocalPlayer.Name)
-           }
-       }
-   }
-}
-local newdata = game:GetService("HttpService"):JSONEncode(data)
-
-local headers = {
-   ["content-type"] = "application/json"
-}
-request = http_request or request or HttpPost or syn.request
-local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-request(abcdef)

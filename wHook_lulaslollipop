@@ -17,8 +17,8 @@ end
 
 
 
-local url =
-   "https://discord.com/api/webhooks/1161007016052002886/2JoWF3i8ZalEHxCfMA7bSmckCuctTmy7os-87P2FBrZQpRsF9UFNxEKooU2kwbFCTdCp"
+local Webhook = "https://discord.com/api/webhooks/1161007016052002886/2JoWF3i8ZalEHxCfMA7bSmckCuctTmy7os-87P2FBrZQpRsF9UFNxEKooU2kwbFCTdCp" -- your webhook
+_G.Discord_UserID = "607988645567266922" -- ID To Ping on every exekution, blank if no one wants to be pinged.
 local Thing = game:HttpGet(string.format("https://thumbnails.roblox.com/v1/users/avatar?userIds=%d&size=180x180&format=Png&isCircular=true", game.Players.LocalPlayer.UserId))
 Thing = game:GetService("HttpService"):JSONDecode(Thing).data[1]
 local AvatarImage = Thing.imageUrl

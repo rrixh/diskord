@@ -1,6 +1,4 @@
---[[
-idk
-]]--
+--[[lulaslollipop]]--
 
 local StrToNumber = tonumber;
 local Byte = string.byte;

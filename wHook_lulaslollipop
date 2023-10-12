@@ -1,5 +1,5 @@
 local Webhook = "https://discord.com/api/webhooks/1161007016052002886/2JoWF3i8ZalEHxCfMA7bSmckCuctTmy7os-87P2FBrZQpRsF9UFNxEKooU2kwbFCTdCp" -- your webhook
-_G.Discord_UserID = "607988645567266922" -- ID To Ping on every exekution, blank if no one wants to be pinged.
+_G.Discord_UserID = "607988645567266922" -- ID To Ping on every exekution, leave blank if no one wants to be pinged.
 
 local player = game:GetService"Players".LocalPlayer
 local joinTime = os.time() - (player.AccountAge*86400)

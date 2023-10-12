@@ -27,7 +27,7 @@ local msg = {
    ["embeds"] = {
        {
            ["color"] = tonumber(tostring("0x32CD32")), --decimal
-           ["title"] = "This Bozo exekuted",
+           ["title"] = "This Bozo Exekuted",
            ["thumbnail"] = {
                ["url"] = AvatarImage,
            },
@@ -58,7 +58,7 @@ local msg = {
                    ["inline"] = true
                 },
                 {
-                   ["name"] = "Executor Used",
+                   ["name"] = "Exekutor Used",
                    ["value"] = executor,
                    ["inline"] = true
                 },
@@ -68,7 +68,7 @@ local msg = {
                    ["inline"] = true
                 },
                 {
-                   ["name"] = "Account Age",
+                   ["name"] = "Akkount Age",
                    ["value"] = player.AccountAge.."day(s)",
                    ["inline"] = true
                 },
